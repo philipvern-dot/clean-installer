@@ -1,0 +1,41 @@
+{
+  "ids": [
+    {"match": "IObit.AdvancedSystemCare", "reason": "known PUP / system cleaner"},
+    {"match": "IObit.DriverBooster", "reason": "known PUP / paid driver updater"},
+    {"match": "IObit.Uninstaller", "reason": "known PUP publisher"},
+    {"match": "IObit.MalwareFighter", "reason": "known PUP / extra AV"},
+    {"match": "Piriform.CCleaner", "reason": "often bundled; history of adware/telemetry issues"},
+    {"match": "McAfee.LiveSafe", "reason": "OEM security suite / trial bloat"},
+    {"match": "McAfee.WebAdvisor", "reason": "browser toolbar / OEM bloat"},
+    {"match": "AVG.Antivirus", "reason": "OEM AV / trial bloat"},
+    {"match": "Avast.Antivirus", "reason": "OEM AV / trial bloat"},
+    {"match": "Norton.Norton360", "reason": "OEM security suite / trial bloat"}
+  ],
+  "publishers": [
+    {"match": "IObit", "reason": "known PUP publisher"},
+    {"match": "McAfee", "reason": "OEM security trial / bloat"},
+    {"match": "NortonLifeLock", "reason": "OEM security trial / bloat"},
+    {"match": "Gen Digital", "reason": "Norton/Avast/AVG OEM family"},
+    {"match": "Avast Software", "reason": "OEM AV / trial bloat"},
+    {"match": "AVG Technologies", "reason": "OEM AV / trial bloat"},
+    {"match": "WildTangent", "reason": "OEM game bundler"},
+    {"match": "Support.com", "reason": "OEM support / PC Health tools"},
+    {"match": "Reimage", "reason": "known scareware / repair PUP"},
+    {"match": "MyPC TuneUp", "reason": "known PC cleaner PUP"},
+    {"match": "PC Helpsoft", "reason": "known registry cleaner PUP"}
+  ],
+  "names": [
+    {"match": "driver booster", "reason": "paid driver updater, often bundled"},
+    {"match": "advanced systemcare", "reason": "known PUP / system cleaner"},
+    {"match": "mcafee webadvisor", "reason": "browser toolbar / OEM bloat"},
+    {"match": "mcafee live", "reason": "OEM security trial"},
+    {"match": "norton 360", "reason": "OEM security trial"},
+    {"match": "candy crush", "reason": "OEM store bloat"},
+    {"match": "farmville", "reason": "OEM store bloat"},
+    {"match": "wildtangent", "reason": "OEM game bundler"},
+    {"match": "pc accelerator", "reason": "known optimizer PUP"},
+    {"match": "registry mechanic", "reason": "known registry cleaner PUP"},
+    {"match": "driverupdate", "reason": "known driver updater PUP"},
+    {"match": "pro pc cleaner", "reason": "known cleaner PUP"}
+  ]
+}

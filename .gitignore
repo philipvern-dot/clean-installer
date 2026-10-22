@@ -1,0 +1,11 @@
+# Personal settings
+app/settings.json
+
+# Shortcut is rewritten for this PC
+*.lnk
+
+# Uploaded separately as a GitHub Release
+clean_installer.exe
+
+Thumbs.db
+desktop.ini
